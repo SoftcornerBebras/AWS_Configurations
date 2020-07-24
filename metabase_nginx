@@ -1,0 +1,11 @@
+# sample nginx.conf
+# proxy requests to Metabase instance
+server {
+  listen 3000;
+  listen [::]:3000;
+  server_name 54.196.61.229;
+  error_log /var/log/metabase.log;
+  location / {
+    proxy_pass http://127.0.0.1:3307;
+  }
+}

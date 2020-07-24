@@ -1,0 +1,8 @@
+MB_PASSWORD_COMPLEXITY=strong
+MB_PASSWORD_LENGTH=26
+MB_JETTY_HOST=127.0.0.1
+MB_JETTY_PORT=3307
+MB_DB_TYPE=h2
+MB_DB_FILE=/home/ubuntu/metabase/Metabase/metabase.db
+MB_EMOJI_IN_LOGS=false
+
